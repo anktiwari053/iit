@@ -5,6 +5,13 @@ gsap.to(".navbar", {
     duration: 1,
     ease: "power3.out"
   });
+
+  function disp()  {
+    document.getElementById("img").style.display = "block";
+  }
+  function disp1()  {
+     document.getElementById("resuem").style.display = "block";
+  }
   
   // Button pulse
   gsap.to(".cta-btn", {
